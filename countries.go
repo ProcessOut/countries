@@ -4,6 +4,8 @@
 // Alpha 2 however. See README for usage examples.
 package countries
 
+import "strings"
+
 // Alpha2 is the ISO_3166-1 alpha 2 code
 type Alpha2 string
 
@@ -18,15 +20,23 @@ type CountryInformation struct {
 	Numeric  int
 }
 
+func (a Alpha2) format() Alpha2 {
+	return Alpha2(strings.ToUpper(a.String()))
+}
+
+func (a Alpha3) format() Alpha3 {
+	return Alpha3(strings.ToUpper(a.String()))
+}
+
 // Verify returns true if the Alpha2 is valid
 func (a Alpha2) Verify() bool {
-	_, ok := countryList[a]
+	_, ok := countryList[a.format()]
 	return ok
 }
 
 // Information returns the CountryInformation associated with the Alpha2 code
 func (a Alpha2) Information() *CountryInformation {
-	new, ok := countryList[a]
+	new, ok := countryList[a.format()]
 	if !ok {
 		return nil
 	}
@@ -35,7 +45,12 @@ func (a Alpha2) Information() *CountryInformation {
 
 // String for Stringer interface
 func (a Alpha2) String() string {
-	return string(a)
+	return string(a.format())
+}
+
+// String for Stringer interface
+func (a Alpha3) String() string {
+	return string(a.format())
 }
 
 // The following functions aren't quite as fast as the other ones,
@@ -53,9 +68,10 @@ func FromFullName(name string) (Alpha2, CountryInformation) {
 	return "", CountryInformation{}
 }
 
-// FromFullName returns the Alpha2 code along with the CountryInformation
+// FromAlpha3 returns the Alpha2 code along with the CountryInformation
 // based on the Alpha3 code provided
 func FromAlpha3(a Alpha3) (Alpha2, CountryInformation) {
+	a = a.format()
 	for k, v := range countryList {
 		if v.Alpha3 == a {
 			return k, v
@@ -64,7 +80,7 @@ func FromAlpha3(a Alpha3) (Alpha2, CountryInformation) {
 	return "", CountryInformation{}
 }
 
-// FromFullName returns the Alpha2 code along with the CountryInformation
+// FromNumericCode returns the Alpha2 code along with the CountryInformation
 // based on the numeric code provided
 func FromNumericCode(code int) (Alpha2, CountryInformation) {
 	for k, v := range countryList {
