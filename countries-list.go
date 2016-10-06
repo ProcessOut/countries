@@ -1,9 +1,9 @@
 package countries
 
-// CountryList returns the country list map which was built from
+// List returns the country list map which was built from
 // https://en.wikipedia.org/wiki/ISO_3166-1 and is based on the Alpha2 for indexing.
 // It is recommended you go through the Verify() or Information() if possible.
-func CountryList() map[Alpha2]CountryInformation {
+func List() map[Alpha2]CountryInformation {
 	return countryList
 }
 

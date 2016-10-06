@@ -2,8 +2,10 @@ package countries
 
 import "testing"
 
-func TestCountryList(t *testing.T) {
-	list := CountryList()
+func TestList(t *testing.T) {
+	t.Parallel()
+
+	list := List()
 
 	if list == nil || len(list) == 0 {
 		t.Error("List is empty?")
