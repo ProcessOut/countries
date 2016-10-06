@@ -1,19 +1,13 @@
 package countries
 
-// Alpha2 is the ISO_3166-1 alpha 2 code
-type Alpha2 string
-
-// CountryInformation contains all the information associated with a country,
-// according to ISO_3166-1
-type CountryInformation struct {
-  FullName string
-  Alpha3 string
-  Numeric int
+// CountryList returns the country list map which was built from
+// https://en.wikipedia.org/wiki/ISO_3166-1 and is based on the Alpha2 for indexing.
+// It is recommended you go through the Verify() or Information() if possible.
+func CountryList() map[Alpha2]CountryInformation {
+  return countryList
 }
 
-type CountryList map[Alpha2]CountryInformation
-
-var countryList = CountryList{
+var countryList = map[Alpha2]CountryInformation{
 "AF": CountryInformation{"Afghanistan","AFG",4},
 "AX": CountryInformation{"Aland Islands !Åland Islands","ALA",248},
 "AL": CountryInformation{"Albania","ALB",8},
