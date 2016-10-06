@@ -11,7 +11,7 @@ func TestVerify(t *testing.T) {
 	// Alpha2
 	t.Run("Alpha2", func(t *testing.T) {
 		t.Parallel()
-		for k := range CountryList() {
+		for k := range List() {
 			if ok := k.Verify(); !ok {
 				t.Error("Should have been ok")
 			}
@@ -28,7 +28,7 @@ func TestVerify(t *testing.T) {
 	// Alpha3
 	t.Run("Alpha3", func(t *testing.T) {
 		t.Parallel()
-		for _, v := range CountryList() {
+		for _, v := range List() {
 			if ok := v.Alpha3.Verify(); !ok {
 				t.Error("Should have been ok")
 			}
@@ -49,7 +49,7 @@ func TestInformation(t *testing.T) {
 	// Alpha2
 	t.Run("Alpha2", func(t *testing.T) {
 		t.Parallel()
-		for k, v := range CountryList() {
+		for k, v := range List() {
 			if info := k.Information(); info == nil {
 				t.Error("The impossible happenned.")
 			} else if v != *info {
@@ -65,7 +65,7 @@ func TestInformation(t *testing.T) {
 	// Alpha3
 	t.Run("Alpha3", func(t *testing.T) {
 		t.Parallel()
-		for k, v := range CountryList() {
+		for k, v := range List() {
 			if k2, info := v.Alpha3.Information(); info == nil {
 				t.Error("The impossible happenned.")
 			} else if k != k2 || v != *info {
