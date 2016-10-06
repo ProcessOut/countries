@@ -20,6 +20,14 @@ type CountryInformation struct {
 	Numeric  int
 }
 
+// All the following functions come in pair for Alpha2 and Alpha3
+
+// WrongAlpha2 represents what String() will print if Alpha2 is wrong
+var WrongAlpha2 = Alpha2("--")
+
+// WrongAlpha3 represents what String() will print if Alpha3 is wrong
+var WrongAlpha3 = Alpha3("---")
+
 func (a Alpha2) format() Alpha2 {
 	return Alpha2(strings.ToUpper(string(a)))
 }
@@ -34,6 +42,13 @@ func (a Alpha2) Verify() bool {
 	return ok
 }
 
+// Verify returns true if the Alpha3 is valid
+// NOTE: you should use Alpha2
+func (a Alpha3) Verify() bool {
+	k, _ := FromAlpha3(a)
+	return k != ""
+}
+
 // Information returns the CountryInformation associated with the Alpha2 code
 func (a Alpha2) Information() *CountryInformation {
 	new, ok := countryList[a.format()]
@@ -43,13 +58,29 @@ func (a Alpha2) Information() *CountryInformation {
 	return &new
 }
 
+// Information returns the CountryInformation associated with the Alpha2 code
+// NOTE: you should use Alpha2
+func (a Alpha3) Information() *CountryInformation {
+	k, new := FromAlpha3(a)
+	if k == "" {
+		return nil
+	}
+	return &new
+}
+
 // String for Stringer interface
 func (a Alpha2) String() string {
+	if ok := a.Verify(); !ok {
+		return string(WrongAlpha2)
+	}
 	return string(a.format())
 }
 
 // String for Stringer interface
 func (a Alpha3) String() string {
+	if ok := a.Verify(); !ok {
+		return string(WrongAlpha3)
+	}
 	return string(a.format())
 }
 
