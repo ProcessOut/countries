@@ -77,5 +77,31 @@ func TestInformation(t *testing.T) {
 }
 
 func TestString(t *testing.T) {
-	// a2 := Alpha2("test")
+	t.Parallel()
+
+	// Alpha2
+	t.Run("Alpha2", func(t *testing.T) {
+		t.Parallel()
+		a := Alpha2("Af")
+		if a.String() != "AF" {
+			t.Error("Wrong answer: " + a.String())
+		}
+		a = Alpha2("afa")
+		if a.String() != string(WrongAlpha2) {
+			t.Error("Wrong answer: " + a.String())
+		}
+	})
+
+	// Alpha3
+	t.Run("Alpha3", func(t *testing.T) {
+		t.Parallel()
+		a := Alpha3("Afg")
+		if a.String() != "AFG" {
+			t.Error("Wrong answer: " + a.String())
+		}
+		a = Alpha3("afag")
+		if a.String() != string(WrongAlpha3) {
+			t.Error("Wrong answer: " + a.String())
+		}
+	})
 }
