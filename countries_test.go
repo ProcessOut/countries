@@ -18,17 +18,33 @@ func TestVerify(t *testing.T) {
 }
 
 func TestInformation(t *testing.T) {
-	for k, v := range CountryList() {
-		if info := k.Information(); info == nil {
-			t.Error("The impossible happenned.")
-		} else if v != *info {
-			t.Error("The informations should have been equal")
+	t.Run("Alpha2", func(t *testing.T) {
+		for k, v := range CountryList() {
+			if info := k.Information(); info == nil {
+				t.Error("The impossible happenned.")
+			} else if v != *info {
+				t.Error("The informations should have been equal")
+			}
 		}
-	}
 
-	if info := Alpha2("bad").Information(); info != nil {
-		t.Error("Info should have been nil")
-	}
+		if info := Alpha2("bad").Information(); info != nil {
+			t.Error("Info should have been nil")
+		}
+	})
+
+	t.Run("Alpha3", func(t *testing.T) {
+		for k, v := range CountryList() {
+			if k2, info := v.Alpha3.Information(); info == nil {
+				t.Error("The impossible happenned.")
+			} else if k != k2 || v != *info {
+				t.Error("The informations should have been equal")
+			}
+		}
+
+		if info := Alpha2("bad").Information(); info != nil {
+			t.Error("Info should have been nil")
+		}
+	})
 }
 
 func TestString(t *testing.T) {

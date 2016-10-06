@@ -49,6 +49,7 @@ func (a Alpha3) Verify() bool {
 	return k != ""
 }
 
+// TODO: answer with err
 // Information returns the CountryInformation associated with the Alpha2 code
 func (a Alpha2) Information() *CountryInformation {
 	new, ok := countryList[a.format()]
@@ -60,12 +61,12 @@ func (a Alpha2) Information() *CountryInformation {
 
 // Information returns the CountryInformation associated with the Alpha2 code
 // NOTE: you should use Alpha2
-func (a Alpha3) Information() *CountryInformation {
+func (a Alpha3) Information() (Alpha2, *CountryInformation) {
 	k, new := FromAlpha3(a)
 	if k == "" {
-		return nil
+		return "", nil
 	}
-	return &new
+	return k, &new
 }
 
 // String for Stringer interface
