@@ -2,6 +2,7 @@
 // be it with Alpha2, Alpha3, FullName, or Numeric code. The map here is based
 // on the Alpha2 for indexing. There are functions to search without giving an
 // Alpha 2 however. See README for usage examples.
+// Note that what you can do with an Alpha2, you can also do with an Alpha3
 package countries
 
 import "strings"
@@ -89,7 +90,7 @@ func (a Alpha3) String() string {
 // These functions return "" as alpha2 if nothing is found.
 
 // FromFullName returns the Alpha2 code along with the CountryInformation
-// based on the name provided
+// based on the name provided.
 func FromFullName(name string) (Alpha2, CountryInformation) {
 	for k, v := range countryList {
 		if v.FullName == name {
