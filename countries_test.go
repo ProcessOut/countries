@@ -41,7 +41,7 @@ func TestInformation(t *testing.T) {
 			}
 		}
 
-		if info := Alpha2("bad").Information(); info != nil {
+		if _, info := Alpha3("bad").Information(); info != nil {
 			t.Error("Info should have been nil")
 		}
 	})
