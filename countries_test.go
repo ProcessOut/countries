@@ -105,3 +105,58 @@ func TestString(t *testing.T) {
 		}
 	})
 }
+
+func TestFrom(t *testing.T) {
+	t.Parallel()
+
+	tester := func(f func() (Alpha2, CountryInformation), ogK Alpha2, ogV CountryInformation) {
+		a2, ci := f()
+		if a2 != ogK {
+			t.Error("Alpha2 codes don't match")
+		} else if ci != ogV {
+			t.Error("CountryInformation doesn't match")
+		}
+	}
+
+	for k, v := range countryList {
+		t.Run(k.String(), func(t *testing.T) {
+			t.Parallel()
+
+			// FromFullName
+			t.Run("FullName", func(t *testing.T) {
+				t.Parallel()
+				tester(
+					func() (Alpha2, CountryInformation) {
+						return FromFullName(v.FullName)
+					},
+					k,
+					v,
+				)
+			})
+
+			// FromAlpha3
+			t.Run("Alpha3", func(t *testing.T) {
+				t.Parallel()
+				tester(
+					func() (Alpha2, CountryInformation) {
+						return FromAlpha3(v.Alpha3)
+					},
+					k,
+					v,
+				)
+			})
+
+			// FromNumericCode
+			t.Run("NumericCode", func(t *testing.T) {
+				t.Parallel()
+				tester(
+					func() (Alpha2, CountryInformation) {
+						return FromNumericCode(v.Numeric)
+					},
+					k,
+					v,
+				)
+			})
+		})
+	}
+}
