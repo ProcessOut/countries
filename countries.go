@@ -1,3 +1,7 @@
+// Countries is a package which regroups all countries under the ISO_3166,
+// be it with Alpha2, Alpha3, FullName, or Numeric code. The map here is based
+// on the Alpha2 for indexing. There are functions to search without giving an
+// Alpha 2 however. See README for usage examples.
 package countries
 
 // Alpha2 is the ISO_3166-1 alpha 2 code
@@ -27,6 +31,11 @@ func (a Alpha2) Information() *CountryInformation {
 		return nil
 	}
 	return &new
+}
+
+// String for Stringer interface
+func (a Alpha2) String() string {
+	return string(a)
 }
 
 // The following functions aren't quite as fast as the other ones,
