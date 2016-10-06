@@ -21,11 +21,11 @@ type CountryInformation struct {
 }
 
 func (a Alpha2) format() Alpha2 {
-	return Alpha2(strings.ToUpper(a.String()))
+	return Alpha2(strings.ToUpper(string(a)))
 }
 
 func (a Alpha3) format() Alpha3 {
-	return Alpha3(strings.ToUpper(a.String()))
+	return Alpha3(strings.ToUpper(string(a)))
 }
 
 // Verify returns true if the Alpha2 is valid
