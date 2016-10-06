@@ -1,6 +1,9 @@
 package countries
 
-import "testing"
+import (
+	"math/rand"
+	"testing"
+)
 
 func TestVerify(t *testing.T) {
 	t.Parallel()
@@ -118,7 +121,14 @@ func TestFrom(t *testing.T) {
 		}
 	}
 
+	var c int
+	rand := rand.Intn(len(countryList))
 	for k, v := range countryList {
+		if c != rand {
+			c++
+			continue
+		}
+
 		t.Run(k.String(), func(t *testing.T) {
 			t.Parallel()
 
@@ -132,6 +142,11 @@ func TestFrom(t *testing.T) {
 					k,
 					v,
 				)
+
+				a2, _ := FromFullName("ProcessOut")
+				if a2 != "" {
+					t.Error("ProcessOut is not a country (yet)")
+				}
 			})
 
 			// FromAlpha3
@@ -144,6 +159,11 @@ func TestFrom(t *testing.T) {
 					k,
 					v,
 				)
+
+				a2, _ := FromAlpha3("PRO")
+				if a2 != "" {
+					t.Error("ProcessOut is not a country (yet)")
+				}
 			})
 
 			// FromNumericCode
@@ -156,7 +176,13 @@ func TestFrom(t *testing.T) {
 					k,
 					v,
 				)
+
+				a2, _ := FromNumericCode(8406355007)
+				if a2 != "" {
+					t.Error("ProcessOot is not a country (yet)")
+				}
 			})
 		})
+		break
 	}
 }
