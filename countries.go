@@ -1,4 +1,4 @@
-// Countries is a package which regroups all countries under the ISO_3166,
+// Package countries is a package which regroups all countries under the ISO_3166,
 // be it with Alpha2, Alpha3, FullName, or Numeric code. The map here is based
 // on the Alpha2 for indexing. There are functions to search without giving an
 // Alpha 2 however. See README for usage examples.
@@ -7,7 +7,7 @@ package countries
 // Alpha2 is the ISO_3166-1 alpha 2 code
 type Alpha2 string
 
-// Alpha2 is the ISO_3166-1 alpha 3 code
+// Alpha3 is the ISO_3166-1 alpha 3 code
 type Alpha3 string
 
 // CountryInformation contains all the information associated with a country,
