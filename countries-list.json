@@ -1,1248 +1,1248 @@
 {
-  "__comment__": "This is a list of all the current countries by the ISO3166-1 standard, provided by github.com/ProcessOut/countries",
-  "AF": {
-    "full_name": "Afghanistan",
-    "alpha3": "AFG",
-    "num": 4
-    },
-	"AX": {
-    "full_name": "Aland Islands !Åland Islands",
-    "alpha3": "ALA",
-    "num": 248
-    },
-	"AL": {
-    "full_name": "Albania",
-    "alpha3": "ALB",
-    "num": 8
-    },
-	"DZ": {
-    "full_name": "Algeria",
-    "alpha3": "DZA",
-    "num": 12
-    },
-	"AS": {
-    "full_name": "American Samoa",
-    "alpha3": "ASM",
-    "num": 16
-    },
-	"AD": {
-    "full_name": "Andorra",
-    "alpha3": "AND",
-    "num": 20
-    },
-	"AO": {
-    "full_name": "Angola",
-    "alpha3": "AGO",
-    "num": 24
-    },
-	"AI": {
-    "full_name": "Anguilla",
-    "alpha3": "AIA",
-    "num": 660
-    },
-	"AQ": {
-    "full_name": "Antarctica",
-    "alpha3": "ATA",
-    "num": 10
-    },
-	"AG": {
-    "full_name": "Antigua and Barbuda",
-    "alpha3": "ATG",
-    "num": 28
-    },
-	"AR": {
-    "full_name": "Argentina",
-    "alpha3": "ARG",
-    "num": 32
-    },
-	"AM": {
-    "full_name": "Armenia",
-    "alpha3": "ARM",
-    "num": 51
-    },
-	"AW": {
-    "full_name": "Aruba",
-    "alpha3": "ABW",
-    "num": 533
-    },
-	"AU": {
-    "full_name": "Australia",
-    "alpha3": "AUS",
-    "num": 36
-    },
-	"AT": {
-    "full_name": "Austria",
-    "alpha3": "AUT",
-    "num": 40
-    },
-	"AZ": {
-    "full_name": "Azerbaijan",
-    "alpha3": "AZE",
-    "num": 31
-    },
-	"BS": {
-    "full_name": "Bahamas",
-    "alpha3": "BHS",
-    "num": 44
-    },
-	"BH": {
-    "full_name": "Bahrain",
-    "alpha3": "BHR",
-    "num": 48
-    },
-	"BD": {
-    "full_name": "Bangladesh",
-    "alpha3": "BGD",
-    "num": 50
-    },
-	"BB": {
-    "full_name": "Barbados",
-    "alpha3": "BRB",
-    "num": 52
-    },
-	"BY": {
-    "full_name": "Belarus",
-    "alpha3": "BLR",
-    "num": 112
-    },
-	"BE": {
-    "full_name": "Belgium",
-    "alpha3": "BEL",
-    "num": 56
-    },
-	"BZ": {
-    "full_name": "Belize",
-    "alpha3": "BLZ",
-    "num": 84
-    },
-	"BJ": {
-    "full_name": "Benin",
-    "alpha3": "BEN",
-    "num": 204
-    },
-	"BM": {
-    "full_name": "Bermuda",
-    "alpha3": "BMU",
-    "num": 60
-    },
-	"BT": {
-    "full_name": "Bhutan",
-    "alpha3": "BTN",
-    "num": 64
-    },
-	"BO": {
-    "full_name": "Bolivia (Plurinational State of)",
-    "alpha3": "BOL",
-    "num": 68
-    },
-	"BQ": {
-    "full_name": "Bonaire, Sint Eustatius and Saba",
-    "alpha3": "BES",
-    "num": 535
-    },
-	"BA": {
-    "full_name": "Bosnia and Herzegovina",
-    "alpha3": "BIH",
-    "num": 70
-    },
-	"BW": {
-    "full_name": "Botswana",
-    "alpha3": "BWA",
-    "num": 72
-    },
-	"BV": {
-    "full_name": "Bouvet Island",
-    "alpha3": "BVT",
-    "num": 74
-    },
-	"BR": {
-    "full_name": "Brazil",
-    "alpha3": "BRA",
-    "num": 76
-    },
-	"IO": {
-    "full_name": "British Indian Ocean Territory",
-    "alpha3": "IOT",
-    "num": 86
-    },
-	"BN": {
-    "full_name": "Brunei Darussalam",
-    "alpha3": "BRN",
-    "num": 96
-    },
-	"BG": {
-    "full_name": "Bulgaria",
-    "alpha3": "BGR",
-    "num": 100
-    },
-	"BF": {
-    "full_name": "Burkina Faso",
-    "alpha3": "BFA",
-    "num": 854
-    },
-	"BI": {
-    "full_name": "Burundi",
-    "alpha3": "BDI",
-    "num": 108
-    },
-	"CV": {
-    "full_name": "Cabo Verde",
-    "alpha3": "CPV",
-    "num": 132
-    },
-	"KH": {
-    "full_name": "Cambodia",
-    "alpha3": "KHM",
-    "num": 116
-    },
-	"CM": {
-    "full_name": "Cameroon",
-    "alpha3": "CMR",
-    "num": 120
-    },
-	"CA": {
-    "full_name": "Canada",
-    "alpha3": "CAN",
-    "num": 124
-    },
-	"KY": {
-    "full_name": "Cayman Islands",
-    "alpha3": "CYM",
-    "num": 136
-    },
-	"CF": {
-    "full_name": "Central African Republic",
-    "alpha3": "CAF",
-    "num": 140
-    },
-	"TD": {
-    "full_name": "Chad",
-    "alpha3": "TCD",
-    "num": 148
-    },
-	"CL": {
-    "full_name": "Chile",
-    "alpha3": "CHL",
-    "num": 152
-    },
-	"CN": {
-    "full_name": "China",
-    "alpha3": "CHN",
-    "num": 156
-    },
-	"CX": {
-    "full_name": "Christmas Island",
-    "alpha3": "CXR",
-    "num": 162
-    },
-	"CC": {
-    "full_name": "Cocos (Keeling) Islands",
-    "alpha3": "CCK",
-    "num": 166
-    },
-	"CO": {
-    "full_name": "Colombia",
-    "alpha3": "COL",
-    "num": 170
-    },
-	"KM": {
-    "full_name": "Comoros",
-    "alpha3": "COM",
-    "num": 174
-    },
-	"CG": {
-    "full_name": "Congo",
-    "alpha3": "COG",
-    "num": 178
-    },
-	"CD": {
-    "full_name": "Congo (Democratic Republic of the)",
-    "alpha3": "COD",
-    "num": 180
-    },
-	"CK": {
-    "full_name": "Cook Islands",
-    "alpha3": "COK",
-    "num": 184
-    },
-	"CR": {
-    "full_name": "Costa Rica",
-    "alpha3": "CRI",
-    "num": 188
-    },
-	"CI": {
-    "full_name": "Cote d'Ivoire !Côte d'Ivoire",
-    "alpha3": "CIV",
-    "num": 384
-    },
-	"HR": {
-    "full_name": "Croatia",
-    "alpha3": "HRV",
-    "num": 191
-    },
-	"CU": {
-    "full_name": "Cuba",
-    "alpha3": "CUB",
-    "num": 192
-    },
-	"CW": {
-    "full_name": "Curacao !Curaçao",
-    "alpha3": "CUW",
-    "num": 531
-    },
-	"CY": {
-    "full_name": "Cyprus",
-    "alpha3": "CYP",
-    "num": 196
-    },
-	"CZ": {
-    "full_name": "Czechia",
-    "alpha3": "CZE",
-    "num": 203
-    },
-	"DK": {
-    "full_name": "Denmark",
-    "alpha3": "DNK",
-    "num": 208
-    },
-	"DJ": {
-    "full_name": "Djibouti",
-    "alpha3": "DJI",
-    "num": 262
-    },
-	"DM": {
-    "full_name": "Dominica",
-    "alpha3": "DMA",
-    "num": 212
-    },
-	"DO": {
-    "full_name": "Dominican Republic",
-    "alpha3": "DOM",
-    "num": 214
-    },
-	"EC": {
-    "full_name": "Ecuador",
-    "alpha3": "ECU",
-    "num": 218
-    },
-	"EG": {
-    "full_name": "Egypt",
-    "alpha3": "EGY",
-    "num": 818
-    },
-	"SV": {
-    "full_name": "El Salvador",
-    "alpha3": "SLV",
-    "num": 222
-    },
-	"GQ": {
-    "full_name": "Equatorial Guinea",
-    "alpha3": "GNQ",
-    "num": 226
-    },
-	"ER": {
-    "full_name": "Eritrea",
-    "alpha3": "ERI",
-    "num": 232
-    },
-	"EE": {
-    "full_name": "Estonia",
-    "alpha3": "EST",
-    "num": 233
-    },
-	"ET": {
-    "full_name": "Ethiopia",
-    "alpha3": "ETH",
-    "num": 231
-    },
-	"FK": {
-    "full_name": "Falkland Islands (Malvinas)",
-    "alpha3": "FLK",
-    "num": 238
-    },
-	"FO": {
-    "full_name": "Faroe Islands",
-    "alpha3": "FRO",
-    "num": 234
-    },
-	"FJ": {
-    "full_name": "Fiji",
-    "alpha3": "FJI",
-    "num": 242
-    },
-	"FI": {
-    "full_name": "Finland",
-    "alpha3": "FIN",
-    "num": 246
-    },
-	"FR": {
-    "full_name": "France",
-    "alpha3": "FRA",
-    "num": 250
-    },
-	"GF": {
-    "full_name": "French Guiana",
-    "alpha3": "GUF",
-    "num": 254
-    },
-	"PF": {
-    "full_name": "French Polynesia",
-    "alpha3": "PYF",
-    "num": 258
-    },
-	"TF": {
-    "full_name": "French Southern Territories",
-    "alpha3": "ATF",
-    "num": 260
-    },
-	"GA": {
-    "full_name": "Gabon",
-    "alpha3": "GAB",
-    "num": 266
-    },
-	"GM": {
-    "full_name": "Gambia",
-    "alpha3": "GMB",
-    "num": 270
-    },
-	"GE": {
-    "full_name": "Georgia",
-    "alpha3": "GEO",
-    "num": 268
-    },
-	"DE": {
-    "full_name": "Germany",
-    "alpha3": "DEU",
-    "num": 276
-    },
-	"GH": {
-    "full_name": "Ghana",
-    "alpha3": "GHA",
-    "num": 288
-    },
-	"GI": {
-    "full_name": "Gibraltar",
-    "alpha3": "GIB",
-    "num": 292
-    },
-	"GR": {
-    "full_name": "Greece",
-    "alpha3": "GRC",
-    "num": 300
-    },
-	"GL": {
-    "full_name": "Greenland",
-    "alpha3": "GRL",
-    "num": 304
-    },
-	"GD": {
-    "full_name": "Grenada",
-    "alpha3": "GRD",
-    "num": 308
-    },
-	"GP": {
-    "full_name": "Guadeloupe",
-    "alpha3": "GLP",
-    "num": 312
-    },
-	"GU": {
-    "full_name": "Guam",
-    "alpha3": "GUM",
-    "num": 316
-    },
-	"GT": {
-    "full_name": "Guatemala",
-    "alpha3": "GTM",
-    "num": 320
-    },
-	"GG": {
-    "full_name": "Guernsey",
-    "alpha3": "GGY",
-    "num": 831
-    },
-	"GN": {
-    "full_name": "Guinea",
-    "alpha3": "GIN",
-    "num": 324
-    },
-	"GW": {
-    "full_name": "Guinea-Bissau",
-    "alpha3": "GNB",
-    "num": 624
-    },
-	"GY": {
-    "full_name": "Guyana",
-    "alpha3": "GUY",
-    "num": 328
-    },
-	"HT": {
-    "full_name": "Haiti",
-    "alpha3": "HTI",
-    "num": 332
-    },
-	"HM": {
-    "full_name": "Heard Island and McDonald Islands",
-    "alpha3": "HMD",
-    "num": 334
-    },
-	"VA": {
-    "full_name": "Holy See",
-    "alpha3": "VAT",
-    "num": 336
-    },
-	"HN": {
-    "full_name": "Honduras",
-    "alpha3": "HND",
-    "num": 340
-    },
-	"HK": {
-    "full_name": "Hong Kong",
-    "alpha3": "HKG",
-    "num": 344
-    },
-	"HU": {
-    "full_name": "Hungary",
-    "alpha3": "HUN",
-    "num": 348
-    },
-	"IS": {
-    "full_name": "Iceland",
-    "alpha3": "ISL",
-    "num": 352
-    },
-	"IN": {
-    "full_name": "India",
-    "alpha3": "IND",
-    "num": 356
-    },
-	"ID": {
-    "full_name": "Indonesia",
-    "alpha3": "IDN",
-    "num": 360
-    },
-	"IR": {
-    "full_name": "Iran (Islamic Republic of)",
-    "alpha3": "IRN",
-    "num": 364
-    },
-	"IQ": {
-    "full_name": "Iraq",
-    "alpha3": "IRQ",
-    "num": 368
-    },
-	"IE": {
-    "full_name": "Ireland",
-    "alpha3": "IRL",
-    "num": 372
-    },
-	"IM": {
-    "full_name": "Isle of Man",
-    "alpha3": "IMN",
-    "num": 833
-    },
-	"IL": {
-    "full_name": "Israel",
-    "alpha3": "ISR",
-    "num": 376
-    },
-	"IT": {
-    "full_name": "Italy",
-    "alpha3": "ITA",
-    "num": 380
-    },
-	"JM": {
-    "full_name": "Jamaica",
-    "alpha3": "JAM",
-    "num": 388
-    },
-	"JP": {
-    "full_name": "Japan",
-    "alpha3": "JPN",
-    "num": 392
-    },
-	"JE": {
-    "full_name": "Jersey",
-    "alpha3": "JEY",
-    "num": 832
-    },
-	"JO": {
-    "full_name": "Jordan",
-    "alpha3": "JOR",
-    "num": 400
-    },
-	"KZ": {
-    "full_name": "Kazakhstan",
-    "alpha3": "KAZ",
-    "num": 398
-    },
-	"KE": {
-    "full_name": "Kenya",
-    "alpha3": "KEN",
-    "num": 404
-    },
-	"KI": {
-    "full_name": "Kiribati",
-    "alpha3": "KIR",
-    "num": 296
-    },
-	"KP": {
-    "full_name": "Korea (Democratic People's Republic of)",
-    "alpha3": "PRK",
-    "num": 408
-    },
-	"KR": {
-    "full_name": "Korea (Republic of)",
-    "alpha3": "KOR",
-    "num": 410
-    },
-	"KW": {
-    "full_name": "Kuwait",
-    "alpha3": "KWT",
-    "num": 414
-    },
-	"KG": {
-    "full_name": "Kyrgyzstan",
-    "alpha3": "KGZ",
-    "num": 417
-    },
-	"LA": {
-    "full_name": "Lao People's Democratic Republic",
-    "alpha3": "LAO",
-    "num": 418
-    },
-	"LV": {
-    "full_name": "Latvia",
-    "alpha3": "LVA",
-    "num": 428
-    },
-	"LB": {
-    "full_name": "Lebanon",
-    "alpha3": "LBN",
-    "num": 422
-    },
-	"LS": {
-    "full_name": "Lesotho",
-    "alpha3": "LSO",
-    "num": 426
-    },
-	"LR": {
-    "full_name": "Liberia",
-    "alpha3": "LBR",
-    "num": 430
-    },
-	"LY": {
-    "full_name": "Libya",
-    "alpha3": "LBY",
-    "num": 434
-    },
-	"LI": {
-    "full_name": "Liechtenstein",
-    "alpha3": "LIE",
-    "num": 438
-    },
-	"LT": {
-    "full_name": "Lithuania",
-    "alpha3": "LTU",
-    "num": 440
-    },
-	"LU": {
-    "full_name": "Luxembourg",
-    "alpha3": "LUX",
-    "num": 442
-    },
-	"MO": {
-    "full_name": "Macao",
-    "alpha3": "MAC",
-    "num": 446
-    },
-	"MK": {
-    "full_name": "Macedonia (the former Yugoslav Republic of)",
-    "alpha3": "MKD",
-    "num": 807
-    },
-	"MG": {
-    "full_name": "Madagascar",
-    "alpha3": "MDG",
-    "num": 450
-    },
-	"MW": {
-    "full_name": "Malawi",
-    "alpha3": "MWI",
-    "num": 454
-    },
-	"MY": {
-    "full_name": "Malaysia",
-    "alpha3": "MYS",
-    "num": 458
-    },
-	"MV": {
-    "full_name": "Maldives",
-    "alpha3": "MDV",
-    "num": 462
-    },
-	"ML": {
-    "full_name": "Mali",
-    "alpha3": "MLI",
-    "num": 466
-    },
-	"MT": {
-    "full_name": "Malta",
-    "alpha3": "MLT",
-    "num": 470
-    },
-	"MH": {
-    "full_name": "Marshall Islands",
-    "alpha3": "MHL",
-    "num": 584
-    },
-	"MQ": {
-    "full_name": "Martinique",
-    "alpha3": "MTQ",
-    "num": 474
-    },
-	"MR": {
-    "full_name": "Mauritania",
-    "alpha3": "MRT",
-    "num": 478
-    },
-	"MU": {
-    "full_name": "Mauritius",
-    "alpha3": "MUS",
-    "num": 480
-    },
-	"YT": {
-    "full_name": "Mayotte",
-    "alpha3": "MYT",
-    "num": 175
-    },
-	"MX": {
-    "full_name": "Mexico",
-    "alpha3": "MEX",
-    "num": 484
-    },
-	"FM": {
-    "full_name": "Micronesia (Federated States of)",
-    "alpha3": "FSM",
-    "num": 583
-    },
-	"MD": {
-    "full_name": "Moldova (Republic of)",
-    "alpha3": "MDA",
-    "num": 498
-    },
-	"MC": {
-    "full_name": "Monaco",
-    "alpha3": "MCO",
-    "num": 492
-    },
-	"MN": {
-    "full_name": "Mongolia",
-    "alpha3": "MNG",
-    "num": 496
-    },
-	"ME": {
-    "full_name": "Montenegro",
-    "alpha3": "MNE",
-    "num": 499
-    },
-	"MS": {
-    "full_name": "Montserrat",
-    "alpha3": "MSR",
-    "num": 500
-    },
-	"MA": {
-    "full_name": "Morocco",
-    "alpha3": "MAR",
-    "num": 504
-    },
-	"MZ": {
-    "full_name": "Mozambique",
-    "alpha3": "MOZ",
-    "num": 508
-    },
-	"MM": {
-    "full_name": "Myanmar",
-    "alpha3": "MMR",
-    "num": 104
-    },
-	"NA": {
-    "full_name": "Namibia",
-    "alpha3": "NAM",
-    "num": 516
-    },
-	"NR": {
-    "full_name": "Nauru",
-    "alpha3": "NRU",
-    "num": 520
-    },
-	"NP": {
-    "full_name": "Nepal",
-    "alpha3": "NPL",
-    "num": 524
-    },
-	"NL": {
-    "full_name": "Netherlands",
-    "alpha3": "NLD",
-    "num": 528
-    },
-	"NC": {
-    "full_name": "New Caledonia",
-    "alpha3": "NCL",
-    "num": 540
-    },
-	"NZ": {
-    "full_name": "New Zealand",
-    "alpha3": "NZL",
-    "num": 554
-    },
-	"NI": {
-    "full_name": "Nicaragua",
-    "alpha3": "NIC",
-    "num": 558
-    },
-	"NE": {
-    "full_name": "Niger",
-    "alpha3": "NER",
-    "num": 562
-    },
-	"NG": {
-    "full_name": "Nigeria",
-    "alpha3": "NGA",
-    "num": 566
-    },
-	"NU": {
-    "full_name": "Niue",
-    "alpha3": "NIU",
-    "num": 570
-    },
-	"NF": {
-    "full_name": "Norfolk Island",
-    "alpha3": "NFK",
-    "num": 574
-    },
-	"MP": {
-    "full_name": "Northern Mariana Islands",
-    "alpha3": "MNP",
-    "num": 580
-    },
-	"NO": {
-    "full_name": "Norway",
-    "alpha3": "NOR",
-    "num": 578
-    },
-	"OM": {
-    "full_name": "Oman",
-    "alpha3": "OMN",
-    "num": 512
-    },
-	"PK": {
-    "full_name": "Pakistan",
-    "alpha3": "PAK",
-    "num": 586
-    },
-	"PW": {
-    "full_name": "Palau",
-    "alpha3": "PLW",
-    "num": 585
-    },
-	"PS": {
-    "full_name": "Palestine, State of",
-    "alpha3": "PSE",
-    "num": 275
-    },
-	"PA": {
-    "full_name": "Panama",
-    "alpha3": "PAN",
-    "num": 591
-    },
-	"PG": {
-    "full_name": "Papua New Guinea",
-    "alpha3": "PNG",
-    "num": 598
-    },
-	"PY": {
-    "full_name": "Paraguay",
-    "alpha3": "PRY",
-    "num": 600
-    },
-	"PE": {
-    "full_name": "Peru",
-    "alpha3": "PER",
-    "num": 604
-    },
-	"PH": {
-    "full_name": "Philippines",
-    "alpha3": "PHL",
-    "num": 608
-    },
-	"PN": {
-    "full_name": "Pitcairn",
-    "alpha3": "PCN",
-    "num": 612
-    },
-	"PL": {
-    "full_name": "Poland",
-    "alpha3": "POL",
-    "num": 616
-    },
-	"PT": {
-    "full_name": "Portugal",
-    "alpha3": "PRT",
-    "num": 620
-    },
-	"PR": {
-    "full_name": "Puerto Rico",
-    "alpha3": "PRI",
-    "num": 630
-    },
-	"QA": {
-    "full_name": "Qatar",
-    "alpha3": "QAT",
-    "num": 634
-    },
-	"RE": {
-    "full_name": "Reunion !Réunion",
-    "alpha3": "REU",
-    "num": 638
-    },
-	"RO": {
-    "full_name": "Romania",
-    "alpha3": "ROU",
-    "num": 642
-    },
-	"RU": {
-    "full_name": "Russian Federation",
-    "alpha3": "RUS",
-    "num": 643
-    },
-	"RW": {
-    "full_name": "Rwanda",
-    "alpha3": "RWA",
-    "num": 646
-    },
-	"BL": {
-    "full_name": "Saint Barthelemy !Saint Barthélemy",
-    "alpha3": "BLM",
-    "num": 652
-    },
-	"SH": {
-    "full_name": "Saint Helena, Ascension and Tristan da Cunha",
-    "alpha3": "SHN",
-    "num": 654
-    },
-	"KN": {
-    "full_name": "Saint Kitts and Nevis",
-    "alpha3": "KNA",
-    "num": 659
-    },
-	"LC": {
-    "full_name": "Saint Lucia",
-    "alpha3": "LCA",
-    "num": 662
-    },
-	"MF": {
-    "full_name": "Saint Martin (French part)",
-    "alpha3": "MAF",
-    "num": 663
-    },
-	"PM": {
-    "full_name": "Saint Pierre and Miquelon",
-    "alpha3": "SPM",
-    "num": 666
-    },
-	"VC": {
-    "full_name": "Saint Vincent and the Grenadines",
-    "alpha3": "VCT",
-    "num": 670
-    },
-	"WS": {
-    "full_name": "Samoa",
-    "alpha3": "WSM",
-    "num": 882
-    },
-	"SM": {
-    "full_name": "San Marino",
-    "alpha3": "SMR",
-    "num": 674
-    },
-	"ST": {
-    "full_name": "Sao Tome and Principe",
-    "alpha3": "STP",
-    "num": 678
-    },
-	"SA": {
-    "full_name": "Saudi Arabia",
-    "alpha3": "SAU",
-    "num": 682
-    },
-	"SN": {
-    "full_name": "Senegal",
-    "alpha3": "SEN",
-    "num": 686
-    },
-	"RS": {
-    "full_name": "Serbia",
-    "alpha3": "SRB",
-    "num": 688
-    },
-	"SC": {
-    "full_name": "Seychelles",
-    "alpha3": "SYC",
-    "num": 690
-    },
-	"SL": {
-    "full_name": "Sierra Leone",
-    "alpha3": "SLE",
-    "num": 694
-    },
-	"SG": {
-    "full_name": "Singapore",
-    "alpha3": "SGP",
-    "num": 702
-    },
-	"SX": {
-    "full_name": "Sint Maarten (Dutch part)",
-    "alpha3": "SXM",
-    "num": 534
-    },
-	"SK": {
-    "full_name": "Slovakia",
-    "alpha3": "SVK",
-    "num": 703
-    },
-	"SI": {
-    "full_name": "Slovenia",
-    "alpha3": "SVN",
-    "num": 705
-    },
-	"SB": {
-    "full_name": "Solomon Islands",
-    "alpha3": "SLB",
-    "num": 90
-    },
-	"SO": {
-    "full_name": "Somalia",
-    "alpha3": "SOM",
-    "num": 706
-    },
-	"ZA": {
-    "full_name": "South Africa",
-    "alpha3": "ZAF",
-    "num": 710
-    },
-	"GS": {
-    "full_name": "South Georgia and the South Sandwich Islands",
-    "alpha3": "SGS",
-    "num": 239
-    },
-	"SS": {
-    "full_name": "South Sudan",
-    "alpha3": "SSD",
-    "num": 728
-    },
-	"ES": {
-    "full_name": "Spain",
-    "alpha3": "ESP",
-    "num": 724
-    },
-	"LK": {
-    "full_name": "Sri Lanka",
-    "alpha3": "LKA",
-    "num": 144
-    },
-	"SD": {
-    "full_name": "Sudan",
-    "alpha3": "SDN",
-    "num": 729
-    },
-	"SR": {
-    "full_name": "Suriname",
-    "alpha3": "SUR",
-    "num": 740
-    },
-	"SJ": {
-    "full_name": "Svalbard and Jan Mayen",
-    "alpha3": "SJM",
-    "num": 744
-    },
-	"SZ": {
-    "full_name": "Swaziland",
-    "alpha3": "SWZ",
-    "num": 748
-    },
-	"SE": {
-    "full_name": "Sweden",
-    "alpha3": "SWE",
-    "num": 752
-    },
-	"CH": {
-    "full_name": "Switzerland",
-    "alpha3": "CHE",
-    "num": 756
-    },
-	"SY": {
-    "full_name": "Syrian Arab Republic",
-    "alpha3": "SYR",
-    "num": 760
-    },
-	"TW": {
-    "full_name": "Taiwan, Province of China",
-    "alpha3": "TWN",
-    "num": 158
-    },
-	"TJ": {
-    "full_name": "Tajikistan",
-    "alpha3": "TJK",
-    "num": 762
-    },
-	"TZ": {
-    "full_name": "Tanzania, United Republic of",
-    "alpha3": "TZA",
-    "num": 834
-    },
-	"TH": {
-    "full_name": "Thailand",
-    "alpha3": "THA",
-    "num": 764
-    },
-	"TL": {
-    "full_name": "Timor-Leste",
-    "alpha3": "TLS",
-    "num": 626
-    },
-	"TG": {
-    "full_name": "Togo",
-    "alpha3": "TGO",
-    "num": 768
-    },
-	"TK": {
-    "full_name": "Tokelau",
-    "alpha3": "TKL",
-    "num": 772
-    },
-	"TO": {
-    "full_name": "Tonga",
-    "alpha3": "TON",
-    "num": 776
-    },
-	"TT": {
-    "full_name": "Trinidad and Tobago",
-    "alpha3": "TTO",
-    "num": 780
-    },
-	"TN": {
-    "full_name": "Tunisia",
-    "alpha3": "TUN",
-    "num": 788
-    },
-	"TR": {
-    "full_name": "Turkey",
-    "alpha3": "TUR",
-    "num": 792
-    },
-	"TM": {
-    "full_name": "Turkmenistan",
-    "alpha3": "TKM",
-    "num": 795
-    },
-	"TC": {
-    "full_name": "Turks and Caicos Islands",
-    "alpha3": "TCA",
-    "num": 796
-    },
-	"TV": {
-    "full_name": "Tuvalu",
-    "alpha3": "TUV",
-    "num": 798
-    },
-	"UG": {
-    "full_name": "Uganda",
-    "alpha3": "UGA",
-    "num": 800
-    },
-	"UA": {
-    "full_name": "Ukraine",
-    "alpha3": "UKR",
-    "num": 804
-    },
-	"AE": {
-    "full_name": "United Arab Emirates",
-    "alpha3": "ARE",
-    "num": 784
-    },
-	"GB": {
-    "full_name": "United Kingdom of Great Britain and Northern Ireland",
-    "alpha3": "GBR",
-    "num": 826
-    },
-	"US": {
-    "full_name": "United States of America",
-    "alpha3": "USA",
-    "num": 840
-    },
-	"UM": {
-    "full_name": "United States Minor Outlying Islands",
-    "alpha3": "UMI",
-    "num": 581
-    },
-	"UY": {
-    "full_name": "Uruguay",
-    "alpha3": "URY",
-    "num": 858
-    },
-	"UZ": {
-    "full_name": "Uzbekistan",
-    "alpha3": "UZB",
-    "num": 860
-    },
-	"VU": {
-    "full_name": "Vanuatu",
-    "alpha3": "VUT",
-    "num": 548
-    },
-	"VE": {
-    "full_name": "Venezuela (Bolivarian Republic of)",
-    "alpha3": "VEN",
-    "num": 862
-    },
-	"VN": {
-    "full_name": "Viet Nam",
-    "alpha3": "VNM",
-    "num": 704
-    },
-	"VG": {
-    "full_name": "Virgin Islands (British)",
-    "alpha3": "VGB",
-    "num": 92
-    },
-	"VI": {
-    "full_name": "Virgin Islands (U.S.)",
-    "alpha3": "VIR",
-    "num": 850
-    },
-	"WF": {
-    "full_name": "Wallis and Futuna",
-    "alpha3": "WLF",
-    "num": 876
-    },
-	"EH": {
-    "full_name": "Western Sahara",
-    "alpha3": "ESH",
-    "num": 732
-    },
-	"YE": {
-    "full_name": "Yemen",
-    "alpha3": "YEM",
-    "num": 887
-    },
-	"ZM": {
-    "full_name": "Zambia",
-    "alpha3": "ZMB",
-    "num": 894
-    },
-	"ZW": {
-    "full_name": "Zimbabwe",
-    "alpha3": "ZWE",
-    "num": 716
+    "__comment__": "This is a list of all the current countries by the ISO3166-1 standard, provided by github.com/ProcessOut/countries",
+    "AF": {
+        "full_name": "Afghanistan",
+        "alpha3": "AFG",
+        "num": 4
+    },
+    "AX": {
+        "full_name": "Aland Islands !Åland Islands",
+        "alpha3": "ALA",
+        "num": 248
+    },
+    "AL": {
+        "full_name": "Albania",
+        "alpha3": "ALB",
+        "num": 8
+    },
+    "DZ": {
+        "full_name": "Algeria",
+        "alpha3": "DZA",
+        "num": 12
+    },
+    "AS": {
+        "full_name": "American Samoa",
+        "alpha3": "ASM",
+        "num": 16
+    },
+    "AD": {
+        "full_name": "Andorra",
+        "alpha3": "AND",
+        "num": 20
+    },
+    "AO": {
+        "full_name": "Angola",
+        "alpha3": "AGO",
+        "num": 24
+    },
+    "AI": {
+        "full_name": "Anguilla",
+        "alpha3": "AIA",
+        "num": 660
+    },
+    "AQ": {
+        "full_name": "Antarctica",
+        "alpha3": "ATA",
+        "num": 10
+    },
+    "AG": {
+        "full_name": "Antigua and Barbuda",
+        "alpha3": "ATG",
+        "num": 28
+    },
+    "AR": {
+        "full_name": "Argentina",
+        "alpha3": "ARG",
+        "num": 32
+    },
+    "AM": {
+        "full_name": "Armenia",
+        "alpha3": "ARM",
+        "num": 51
+    },
+    "AW": {
+        "full_name": "Aruba",
+        "alpha3": "ABW",
+        "num": 533
+    },
+    "AU": {
+        "full_name": "Australia",
+        "alpha3": "AUS",
+        "num": 36
+    },
+    "AT": {
+        "full_name": "Austria",
+        "alpha3": "AUT",
+        "num": 40
+    },
+    "AZ": {
+        "full_name": "Azerbaijan",
+        "alpha3": "AZE",
+        "num": 31
+    },
+    "BS": {
+        "full_name": "Bahamas",
+        "alpha3": "BHS",
+        "num": 44
+    },
+    "BH": {
+        "full_name": "Bahrain",
+        "alpha3": "BHR",
+        "num": 48
+    },
+    "BD": {
+        "full_name": "Bangladesh",
+        "alpha3": "BGD",
+        "num": 50
+    },
+    "BB": {
+        "full_name": "Barbados",
+        "alpha3": "BRB",
+        "num": 52
+    },
+    "BY": {
+        "full_name": "Belarus",
+        "alpha3": "BLR",
+        "num": 112
+    },
+    "BE": {
+        "full_name": "Belgium",
+        "alpha3": "BEL",
+        "num": 56
+    },
+    "BZ": {
+        "full_name": "Belize",
+        "alpha3": "BLZ",
+        "num": 84
+    },
+    "BJ": {
+        "full_name": "Benin",
+        "alpha3": "BEN",
+        "num": 204
+    },
+    "BM": {
+        "full_name": "Bermuda",
+        "alpha3": "BMU",
+        "num": 60
+    },
+    "BT": {
+        "full_name": "Bhutan",
+        "alpha3": "BTN",
+        "num": 64
+    },
+    "BO": {
+        "full_name": "Bolivia (Plurinational State of)",
+        "alpha3": "BOL",
+        "num": 68
+    },
+    "BQ": {
+        "full_name": "Bonaire, Sint Eustatius and Saba",
+        "alpha3": "BES",
+        "num": 535
+    },
+    "BA": {
+        "full_name": "Bosnia and Herzegovina",
+        "alpha3": "BIH",
+        "num": 70
+    },
+    "BW": {
+        "full_name": "Botswana",
+        "alpha3": "BWA",
+        "num": 72
+    },
+    "BV": {
+        "full_name": "Bouvet Island",
+        "alpha3": "BVT",
+        "num": 74
+    },
+    "BR": {
+        "full_name": "Brazil",
+        "alpha3": "BRA",
+        "num": 76
+    },
+    "IO": {
+        "full_name": "British Indian Ocean Territory",
+        "alpha3": "IOT",
+        "num": 86
+    },
+    "BN": {
+        "full_name": "Brunei Darussalam",
+        "alpha3": "BRN",
+        "num": 96
+    },
+    "BG": {
+        "full_name": "Bulgaria",
+        "alpha3": "BGR",
+        "num": 100
+    },
+    "BF": {
+        "full_name": "Burkina Faso",
+        "alpha3": "BFA",
+        "num": 854
+    },
+    "BI": {
+        "full_name": "Burundi",
+        "alpha3": "BDI",
+        "num": 108
+    },
+    "CV": {
+        "full_name": "Cabo Verde",
+        "alpha3": "CPV",
+        "num": 132
+    },
+    "KH": {
+        "full_name": "Cambodia",
+        "alpha3": "KHM",
+        "num": 116
+    },
+    "CM": {
+        "full_name": "Cameroon",
+        "alpha3": "CMR",
+        "num": 120
+    },
+    "CA": {
+        "full_name": "Canada",
+        "alpha3": "CAN",
+        "num": 124
+    },
+    "KY": {
+        "full_name": "Cayman Islands",
+        "alpha3": "CYM",
+        "num": 136
+    },
+    "CF": {
+        "full_name": "Central African Republic",
+        "alpha3": "CAF",
+        "num": 140
+    },
+    "TD": {
+        "full_name": "Chad",
+        "alpha3": "TCD",
+        "num": 148
+    },
+    "CL": {
+        "full_name": "Chile",
+        "alpha3": "CHL",
+        "num": 152
+    },
+    "CN": {
+        "full_name": "China",
+        "alpha3": "CHN",
+        "num": 156
+    },
+    "CX": {
+        "full_name": "Christmas Island",
+        "alpha3": "CXR",
+        "num": 162
+    },
+    "CC": {
+        "full_name": "Cocos (Keeling) Islands",
+        "alpha3": "CCK",
+        "num": 166
+    },
+    "CO": {
+        "full_name": "Colombia",
+        "alpha3": "COL",
+        "num": 170
+    },
+    "KM": {
+        "full_name": "Comoros",
+        "alpha3": "COM",
+        "num": 174
+    },
+    "CG": {
+        "full_name": "Congo",
+        "alpha3": "COG",
+        "num": 178
+    },
+    "CD": {
+        "full_name": "Congo (Democratic Republic of the)",
+        "alpha3": "COD",
+        "num": 180
+    },
+    "CK": {
+        "full_name": "Cook Islands",
+        "alpha3": "COK",
+        "num": 184
+    },
+    "CR": {
+        "full_name": "Costa Rica",
+        "alpha3": "CRI",
+        "num": 188
+    },
+    "CI": {
+        "full_name": "Cote d'Ivoire !Côte d'Ivoire",
+        "alpha3": "CIV",
+        "num": 384
+    },
+    "HR": {
+        "full_name": "Croatia",
+        "alpha3": "HRV",
+        "num": 191
+    },
+    "CU": {
+        "full_name": "Cuba",
+        "alpha3": "CUB",
+        "num": 192
+    },
+    "CW": {
+        "full_name": "Curacao !Curaçao",
+        "alpha3": "CUW",
+        "num": 531
+    },
+    "CY": {
+        "full_name": "Cyprus",
+        "alpha3": "CYP",
+        "num": 196
+    },
+    "CZ": {
+        "full_name": "Czechia",
+        "alpha3": "CZE",
+        "num": 203
+    },
+    "DK": {
+        "full_name": "Denmark",
+        "alpha3": "DNK",
+        "num": 208
+    },
+    "DJ": {
+        "full_name": "Djibouti",
+        "alpha3": "DJI",
+        "num": 262
+    },
+    "DM": {
+        "full_name": "Dominica",
+        "alpha3": "DMA",
+        "num": 212
+    },
+    "DO": {
+        "full_name": "Dominican Republic",
+        "alpha3": "DOM",
+        "num": 214
+    },
+    "EC": {
+        "full_name": "Ecuador",
+        "alpha3": "ECU",
+        "num": 218
+    },
+    "EG": {
+        "full_name": "Egypt",
+        "alpha3": "EGY",
+        "num": 818
+    },
+    "SV": {
+        "full_name": "El Salvador",
+        "alpha3": "SLV",
+        "num": 222
+    },
+    "GQ": {
+        "full_name": "Equatorial Guinea",
+        "alpha3": "GNQ",
+        "num": 226
+    },
+    "ER": {
+        "full_name": "Eritrea",
+        "alpha3": "ERI",
+        "num": 232
+    },
+    "EE": {
+        "full_name": "Estonia",
+        "alpha3": "EST",
+        "num": 233
+    },
+    "ET": {
+        "full_name": "Ethiopia",
+        "alpha3": "ETH",
+        "num": 231
+    },
+    "FK": {
+        "full_name": "Falkland Islands (Malvinas)",
+        "alpha3": "FLK",
+        "num": 238
+    },
+    "FO": {
+        "full_name": "Faroe Islands",
+        "alpha3": "FRO",
+        "num": 234
+    },
+    "FJ": {
+        "full_name": "Fiji",
+        "alpha3": "FJI",
+        "num": 242
+    },
+    "FI": {
+        "full_name": "Finland",
+        "alpha3": "FIN",
+        "num": 246
+    },
+    "FR": {
+        "full_name": "France",
+        "alpha3": "FRA",
+        "num": 250
+    },
+    "GF": {
+        "full_name": "French Guiana",
+        "alpha3": "GUF",
+        "num": 254
+    },
+    "PF": {
+        "full_name": "French Polynesia",
+        "alpha3": "PYF",
+        "num": 258
+    },
+    "TF": {
+        "full_name": "French Southern Territories",
+        "alpha3": "ATF",
+        "num": 260
+    },
+    "GA": {
+        "full_name": "Gabon",
+        "alpha3": "GAB",
+        "num": 266
+    },
+    "GM": {
+        "full_name": "Gambia",
+        "alpha3": "GMB",
+        "num": 270
+    },
+    "GE": {
+        "full_name": "Georgia",
+        "alpha3": "GEO",
+        "num": 268
+    },
+    "DE": {
+        "full_name": "Germany",
+        "alpha3": "DEU",
+        "num": 276
+    },
+    "GH": {
+        "full_name": "Ghana",
+        "alpha3": "GHA",
+        "num": 288
+    },
+    "GI": {
+        "full_name": "Gibraltar",
+        "alpha3": "GIB",
+        "num": 292
+    },
+    "GR": {
+        "full_name": "Greece",
+        "alpha3": "GRC",
+        "num": 300
+    },
+    "GL": {
+        "full_name": "Greenland",
+        "alpha3": "GRL",
+        "num": 304
+    },
+    "GD": {
+        "full_name": "Grenada",
+        "alpha3": "GRD",
+        "num": 308
+    },
+    "GP": {
+        "full_name": "Guadeloupe",
+        "alpha3": "GLP",
+        "num": 312
+    },
+    "GU": {
+        "full_name": "Guam",
+        "alpha3": "GUM",
+        "num": 316
+    },
+    "GT": {
+        "full_name": "Guatemala",
+        "alpha3": "GTM",
+        "num": 320
+    },
+    "GG": {
+        "full_name": "Guernsey",
+        "alpha3": "GGY",
+        "num": 831
+    },
+    "GN": {
+        "full_name": "Guinea",
+        "alpha3": "GIN",
+        "num": 324
+    },
+    "GW": {
+        "full_name": "Guinea-Bissau",
+        "alpha3": "GNB",
+        "num": 624
+    },
+    "GY": {
+        "full_name": "Guyana",
+        "alpha3": "GUY",
+        "num": 328
+    },
+    "HT": {
+        "full_name": "Haiti",
+        "alpha3": "HTI",
+        "num": 332
+    },
+    "HM": {
+        "full_name": "Heard Island and McDonald Islands",
+        "alpha3": "HMD",
+        "num": 334
+    },
+    "VA": {
+        "full_name": "Holy See",
+        "alpha3": "VAT",
+        "num": 336
+    },
+    "HN": {
+        "full_name": "Honduras",
+        "alpha3": "HND",
+        "num": 340
+    },
+    "HK": {
+        "full_name": "Hong Kong",
+        "alpha3": "HKG",
+        "num": 344
+    },
+    "HU": {
+        "full_name": "Hungary",
+        "alpha3": "HUN",
+        "num": 348
+    },
+    "IS": {
+        "full_name": "Iceland",
+        "alpha3": "ISL",
+        "num": 352
+    },
+    "IN": {
+        "full_name": "India",
+        "alpha3": "IND",
+        "num": 356
+    },
+    "ID": {
+        "full_name": "Indonesia",
+        "alpha3": "IDN",
+        "num": 360
+    },
+    "IR": {
+        "full_name": "Iran (Islamic Republic of)",
+        "alpha3": "IRN",
+        "num": 364
+    },
+    "IQ": {
+        "full_name": "Iraq",
+        "alpha3": "IRQ",
+        "num": 368
+    },
+    "IE": {
+        "full_name": "Ireland",
+        "alpha3": "IRL",
+        "num": 372
+    },
+    "IM": {
+        "full_name": "Isle of Man",
+        "alpha3": "IMN",
+        "num": 833
+    },
+    "IL": {
+        "full_name": "Israel",
+        "alpha3": "ISR",
+        "num": 376
+    },
+    "IT": {
+        "full_name": "Italy",
+        "alpha3": "ITA",
+        "num": 380
+    },
+    "JM": {
+        "full_name": "Jamaica",
+        "alpha3": "JAM",
+        "num": 388
+    },
+    "JP": {
+        "full_name": "Japan",
+        "alpha3": "JPN",
+        "num": 392
+    },
+    "JE": {
+        "full_name": "Jersey",
+        "alpha3": "JEY",
+        "num": 832
+    },
+    "JO": {
+        "full_name": "Jordan",
+        "alpha3": "JOR",
+        "num": 400
+    },
+    "KZ": {
+        "full_name": "Kazakhstan",
+        "alpha3": "KAZ",
+        "num": 398
+    },
+    "KE": {
+        "full_name": "Kenya",
+        "alpha3": "KEN",
+        "num": 404
+    },
+    "KI": {
+        "full_name": "Kiribati",
+        "alpha3": "KIR",
+        "num": 296
+    },
+    "KP": {
+        "full_name": "Korea (Democratic People's Republic of)",
+        "alpha3": "PRK",
+        "num": 408
+    },
+    "KR": {
+        "full_name": "Korea (Republic of)",
+        "alpha3": "KOR",
+        "num": 410
+    },
+    "KW": {
+        "full_name": "Kuwait",
+        "alpha3": "KWT",
+        "num": 414
+    },
+    "KG": {
+        "full_name": "Kyrgyzstan",
+        "alpha3": "KGZ",
+        "num": 417
+    },
+    "LA": {
+        "full_name": "Lao People's Democratic Republic",
+        "alpha3": "LAO",
+        "num": 418
+    },
+    "LV": {
+        "full_name": "Latvia",
+        "alpha3": "LVA",
+        "num": 428
+    },
+    "LB": {
+        "full_name": "Lebanon",
+        "alpha3": "LBN",
+        "num": 422
+    },
+    "LS": {
+        "full_name": "Lesotho",
+        "alpha3": "LSO",
+        "num": 426
+    },
+    "LR": {
+        "full_name": "Liberia",
+        "alpha3": "LBR",
+        "num": 430
+    },
+    "LY": {
+        "full_name": "Libya",
+        "alpha3": "LBY",
+        "num": 434
+    },
+    "LI": {
+        "full_name": "Liechtenstein",
+        "alpha3": "LIE",
+        "num": 438
+    },
+    "LT": {
+        "full_name": "Lithuania",
+        "alpha3": "LTU",
+        "num": 440
+    },
+    "LU": {
+        "full_name": "Luxembourg",
+        "alpha3": "LUX",
+        "num": 442
+    },
+    "MO": {
+        "full_name": "Macao",
+        "alpha3": "MAC",
+        "num": 446
+    },
+    "MK": {
+        "full_name": "Macedonia (the former Yugoslav Republic of)",
+        "alpha3": "MKD",
+        "num": 807
+    },
+    "MG": {
+        "full_name": "Madagascar",
+        "alpha3": "MDG",
+        "num": 450
+    },
+    "MW": {
+        "full_name": "Malawi",
+        "alpha3": "MWI",
+        "num": 454
+    },
+    "MY": {
+        "full_name": "Malaysia",
+        "alpha3": "MYS",
+        "num": 458
+    },
+    "MV": {
+        "full_name": "Maldives",
+        "alpha3": "MDV",
+        "num": 462
+    },
+    "ML": {
+        "full_name": "Mali",
+        "alpha3": "MLI",
+        "num": 466
+    },
+    "MT": {
+        "full_name": "Malta",
+        "alpha3": "MLT",
+        "num": 470
+    },
+    "MH": {
+        "full_name": "Marshall Islands",
+        "alpha3": "MHL",
+        "num": 584
+    },
+    "MQ": {
+        "full_name": "Martinique",
+        "alpha3": "MTQ",
+        "num": 474
+    },
+    "MR": {
+        "full_name": "Mauritania",
+        "alpha3": "MRT",
+        "num": 478
+    },
+    "MU": {
+        "full_name": "Mauritius",
+        "alpha3": "MUS",
+        "num": 480
+    },
+    "YT": {
+        "full_name": "Mayotte",
+        "alpha3": "MYT",
+        "num": 175
+    },
+    "MX": {
+        "full_name": "Mexico",
+        "alpha3": "MEX",
+        "num": 484
+    },
+    "FM": {
+        "full_name": "Micronesia (Federated States of)",
+        "alpha3": "FSM",
+        "num": 583
+    },
+    "MD": {
+        "full_name": "Moldova (Republic of)",
+        "alpha3": "MDA",
+        "num": 498
+    },
+    "MC": {
+        "full_name": "Monaco",
+        "alpha3": "MCO",
+        "num": 492
+    },
+    "MN": {
+        "full_name": "Mongolia",
+        "alpha3": "MNG",
+        "num": 496
+    },
+    "ME": {
+        "full_name": "Montenegro",
+        "alpha3": "MNE",
+        "num": 499
+    },
+    "MS": {
+        "full_name": "Montserrat",
+        "alpha3": "MSR",
+        "num": 500
+    },
+    "MA": {
+        "full_name": "Morocco",
+        "alpha3": "MAR",
+        "num": 504
+    },
+    "MZ": {
+        "full_name": "Mozambique",
+        "alpha3": "MOZ",
+        "num": 508
+    },
+    "MM": {
+        "full_name": "Myanmar",
+        "alpha3": "MMR",
+        "num": 104
+    },
+    "NA": {
+        "full_name": "Namibia",
+        "alpha3": "NAM",
+        "num": 516
+    },
+    "NR": {
+        "full_name": "Nauru",
+        "alpha3": "NRU",
+        "num": 520
+    },
+    "NP": {
+        "full_name": "Nepal",
+        "alpha3": "NPL",
+        "num": 524
+    },
+    "NL": {
+        "full_name": "Netherlands",
+        "alpha3": "NLD",
+        "num": 528
+    },
+    "NC": {
+        "full_name": "New Caledonia",
+        "alpha3": "NCL",
+        "num": 540
+    },
+    "NZ": {
+        "full_name": "New Zealand",
+        "alpha3": "NZL",
+        "num": 554
+    },
+    "NI": {
+        "full_name": "Nicaragua",
+        "alpha3": "NIC",
+        "num": 558
+    },
+    "NE": {
+        "full_name": "Niger",
+        "alpha3": "NER",
+        "num": 562
+    },
+    "NG": {
+        "full_name": "Nigeria",
+        "alpha3": "NGA",
+        "num": 566
+    },
+    "NU": {
+        "full_name": "Niue",
+        "alpha3": "NIU",
+        "num": 570
+    },
+    "NF": {
+        "full_name": "Norfolk Island",
+        "alpha3": "NFK",
+        "num": 574
+    },
+    "MP": {
+        "full_name": "Northern Mariana Islands",
+        "alpha3": "MNP",
+        "num": 580
+    },
+    "NO": {
+        "full_name": "Norway",
+        "alpha3": "NOR",
+        "num": 578
+    },
+    "OM": {
+        "full_name": "Oman",
+        "alpha3": "OMN",
+        "num": 512
+    },
+    "PK": {
+        "full_name": "Pakistan",
+        "alpha3": "PAK",
+        "num": 586
+    },
+    "PW": {
+        "full_name": "Palau",
+        "alpha3": "PLW",
+        "num": 585
+    },
+    "PS": {
+        "full_name": "Palestine, State of",
+        "alpha3": "PSE",
+        "num": 275
+    },
+    "PA": {
+        "full_name": "Panama",
+        "alpha3": "PAN",
+        "num": 591
+    },
+    "PG": {
+        "full_name": "Papua New Guinea",
+        "alpha3": "PNG",
+        "num": 598
+    },
+    "PY": {
+        "full_name": "Paraguay",
+        "alpha3": "PRY",
+        "num": 600
+    },
+    "PE": {
+        "full_name": "Peru",
+        "alpha3": "PER",
+        "num": 604
+    },
+    "PH": {
+        "full_name": "Philippines",
+        "alpha3": "PHL",
+        "num": 608
+    },
+    "PN": {
+        "full_name": "Pitcairn",
+        "alpha3": "PCN",
+        "num": 612
+    },
+    "PL": {
+        "full_name": "Poland",
+        "alpha3": "POL",
+        "num": 616
+    },
+    "PT": {
+        "full_name": "Portugal",
+        "alpha3": "PRT",
+        "num": 620
+    },
+    "PR": {
+        "full_name": "Puerto Rico",
+        "alpha3": "PRI",
+        "num": 630
+    },
+    "QA": {
+        "full_name": "Qatar",
+        "alpha3": "QAT",
+        "num": 634
+    },
+    "RE": {
+        "full_name": "Reunion !Réunion",
+        "alpha3": "REU",
+        "num": 638
+    },
+    "RO": {
+        "full_name": "Romania",
+        "alpha3": "ROU",
+        "num": 642
+    },
+    "RU": {
+        "full_name": "Russian Federation",
+        "alpha3": "RUS",
+        "num": 643
+    },
+    "RW": {
+        "full_name": "Rwanda",
+        "alpha3": "RWA",
+        "num": 646
+    },
+    "BL": {
+        "full_name": "Saint Barthelemy !Saint Barthélemy",
+        "alpha3": "BLM",
+        "num": 652
+    },
+    "SH": {
+        "full_name": "Saint Helena, Ascension and Tristan da Cunha",
+        "alpha3": "SHN",
+        "num": 654
+    },
+    "KN": {
+        "full_name": "Saint Kitts and Nevis",
+        "alpha3": "KNA",
+        "num": 659
+    },
+    "LC": {
+        "full_name": "Saint Lucia",
+        "alpha3": "LCA",
+        "num": 662
+    },
+    "MF": {
+        "full_name": "Saint Martin (French part)",
+        "alpha3": "MAF",
+        "num": 663
+    },
+    "PM": {
+        "full_name": "Saint Pierre and Miquelon",
+        "alpha3": "SPM",
+        "num": 666
+    },
+    "VC": {
+        "full_name": "Saint Vincent and the Grenadines",
+        "alpha3": "VCT",
+        "num": 670
+    },
+    "WS": {
+        "full_name": "Samoa",
+        "alpha3": "WSM",
+        "num": 882
+    },
+    "SM": {
+        "full_name": "San Marino",
+        "alpha3": "SMR",
+        "num": 674
+    },
+    "ST": {
+        "full_name": "Sao Tome and Principe",
+        "alpha3": "STP",
+        "num": 678
+    },
+    "SA": {
+        "full_name": "Saudi Arabia",
+        "alpha3": "SAU",
+        "num": 682
+    },
+    "SN": {
+        "full_name": "Senegal",
+        "alpha3": "SEN",
+        "num": 686
+    },
+    "RS": {
+        "full_name": "Serbia",
+        "alpha3": "SRB",
+        "num": 688
+    },
+    "SC": {
+        "full_name": "Seychelles",
+        "alpha3": "SYC",
+        "num": 690
+    },
+    "SL": {
+        "full_name": "Sierra Leone",
+        "alpha3": "SLE",
+        "num": 694
+    },
+    "SG": {
+        "full_name": "Singapore",
+        "alpha3": "SGP",
+        "num": 702
+    },
+    "SX": {
+        "full_name": "Sint Maarten (Dutch part)",
+        "alpha3": "SXM",
+        "num": 534
+    },
+    "SK": {
+        "full_name": "Slovakia",
+        "alpha3": "SVK",
+        "num": 703
+    },
+    "SI": {
+        "full_name": "Slovenia",
+        "alpha3": "SVN",
+        "num": 705
+    },
+    "SB": {
+        "full_name": "Solomon Islands",
+        "alpha3": "SLB",
+        "num": 90
+    },
+    "SO": {
+        "full_name": "Somalia",
+        "alpha3": "SOM",
+        "num": 706
+    },
+    "ZA": {
+        "full_name": "South Africa",
+        "alpha3": "ZAF",
+        "num": 710
+    },
+    "GS": {
+        "full_name": "South Georgia and the South Sandwich Islands",
+        "alpha3": "SGS",
+        "num": 239
+    },
+    "SS": {
+        "full_name": "South Sudan",
+        "alpha3": "SSD",
+        "num": 728
+    },
+    "ES": {
+        "full_name": "Spain",
+        "alpha3": "ESP",
+        "num": 724
+    },
+    "LK": {
+        "full_name": "Sri Lanka",
+        "alpha3": "LKA",
+        "num": 144
+    },
+    "SD": {
+        "full_name": "Sudan",
+        "alpha3": "SDN",
+        "num": 729
+    },
+    "SR": {
+        "full_name": "Suriname",
+        "alpha3": "SUR",
+        "num": 740
+    },
+    "SJ": {
+        "full_name": "Svalbard and Jan Mayen",
+        "alpha3": "SJM",
+        "num": 744
+    },
+    "SZ": {
+        "full_name": "Swaziland",
+        "alpha3": "SWZ",
+        "num": 748
+    },
+    "SE": {
+        "full_name": "Sweden",
+        "alpha3": "SWE",
+        "num": 752
+    },
+    "CH": {
+        "full_name": "Switzerland",
+        "alpha3": "CHE",
+        "num": 756
+    },
+    "SY": {
+        "full_name": "Syrian Arab Republic",
+        "alpha3": "SYR",
+        "num": 760
+    },
+    "TW": {
+        "full_name": "Taiwan, Province of China",
+        "alpha3": "TWN",
+        "num": 158
+    },
+    "TJ": {
+        "full_name": "Tajikistan",
+        "alpha3": "TJK",
+        "num": 762
+    },
+    "TZ": {
+        "full_name": "Tanzania, United Republic of",
+        "alpha3": "TZA",
+        "num": 834
+    },
+    "TH": {
+        "full_name": "Thailand",
+        "alpha3": "THA",
+        "num": 764
+    },
+    "TL": {
+        "full_name": "Timor-Leste",
+        "alpha3": "TLS",
+        "num": 626
+    },
+    "TG": {
+        "full_name": "Togo",
+        "alpha3": "TGO",
+        "num": 768
+    },
+    "TK": {
+        "full_name": "Tokelau",
+        "alpha3": "TKL",
+        "num": 772
+    },
+    "TO": {
+        "full_name": "Tonga",
+        "alpha3": "TON",
+        "num": 776
+    },
+    "TT": {
+        "full_name": "Trinidad and Tobago",
+        "alpha3": "TTO",
+        "num": 780
+    },
+    "TN": {
+        "full_name": "Tunisia",
+        "alpha3": "TUN",
+        "num": 788
+    },
+    "TR": {
+        "full_name": "Turkey",
+        "alpha3": "TUR",
+        "num": 792
+    },
+    "TM": {
+        "full_name": "Turkmenistan",
+        "alpha3": "TKM",
+        "num": 795
+    },
+    "TC": {
+        "full_name": "Turks and Caicos Islands",
+        "alpha3": "TCA",
+        "num": 796
+    },
+    "TV": {
+        "full_name": "Tuvalu",
+        "alpha3": "TUV",
+        "num": 798
+    },
+    "UG": {
+        "full_name": "Uganda",
+        "alpha3": "UGA",
+        "num": 800
+    },
+    "UA": {
+        "full_name": "Ukraine",
+        "alpha3": "UKR",
+        "num": 804
+    },
+    "AE": {
+        "full_name": "United Arab Emirates",
+        "alpha3": "ARE",
+        "num": 784
+    },
+    "GB": {
+        "full_name": "United Kingdom of Great Britain and Northern Ireland",
+        "alpha3": "GBR",
+        "num": 826
+    },
+    "US": {
+        "full_name": "United States of America",
+        "alpha3": "USA",
+        "num": 840
+    },
+    "UM": {
+        "full_name": "United States Minor Outlying Islands",
+        "alpha3": "UMI",
+        "num": 581
+    },
+    "UY": {
+        "full_name": "Uruguay",
+        "alpha3": "URY",
+        "num": 858
+    },
+    "UZ": {
+        "full_name": "Uzbekistan",
+        "alpha3": "UZB",
+        "num": 860
+    },
+    "VU": {
+        "full_name": "Vanuatu",
+        "alpha3": "VUT",
+        "num": 548
+    },
+    "VE": {
+        "full_name": "Venezuela (Bolivarian Republic of)",
+        "alpha3": "VEN",
+        "num": 862
+    },
+    "VN": {
+        "full_name": "Viet Nam",
+        "alpha3": "VNM",
+        "num": 704
+    },
+    "VG": {
+        "full_name": "Virgin Islands (British)",
+        "alpha3": "VGB",
+        "num": 92
+    },
+    "VI": {
+        "full_name": "Virgin Islands (U.S.)",
+        "alpha3": "VIR",
+        "num": 850
+    },
+    "WF": {
+        "full_name": "Wallis and Futuna",
+        "alpha3": "WLF",
+        "num": 876
+    },
+    "EH": {
+        "full_name": "Western Sahara",
+        "alpha3": "ESH",
+        "num": 732
+    },
+    "YE": {
+        "full_name": "Yemen",
+        "alpha3": "YEM",
+        "num": 887
+    },
+    "ZM": {
+        "full_name": "Zambia",
+        "alpha3": "ZMB",
+        "num": 894
+    },
+    "ZW": {
+        "full_name": "Zimbabwe",
+        "alpha3": "ZWE",
+        "num": 716
     }
 }
