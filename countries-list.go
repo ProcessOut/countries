@@ -1,13 +1,14 @@
-package countries
+package traveler
 
-// List returns the country list map which was built from
-// https://en.wikipedia.org/wiki/ISO_3166-1 and is based on the Alpha2 for indexing.
-// It is recommended you go through the Verify() or Information() if possible.
-func List() map[Alpha2]CountryInformation {
+// Countries returns the country list map which was built from
+// https://en.wikipedia.org/wiki/ISO_3166-1 and is based on the CountryAlpha2
+// for indexing. It is recommended you go through the Verify() or
+// Information() if possible.
+func Countries() map[CountryAlpha2]CountryInformation {
 	return countryList
 }
 
-var countryList = map[Alpha2]CountryInformation{
+var countryList = map[CountryAlpha2]CountryInformation{
 	"AF": CountryInformation{"Afghanistan", "AFG", 4},
 	"AX": CountryInformation{"Aland Islands !Åland Islands", "ALA", 248},
 	"AL": CountryInformation{"Albania", "ALB", 8},

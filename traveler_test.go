@@ -1,4 +1,4 @@
-package countries
+package traveler
 
 import (
 	"math/rand"
@@ -8,36 +8,36 @@ import (
 func TestVerify(t *testing.T) {
 	t.Parallel()
 
-	// Alpha2
-	t.Run("Alpha2", func(t *testing.T) {
+	// CountryAlpha2
+	t.Run("CountryAlpha2", func(t *testing.T) {
 		t.Parallel()
-		for k := range List() {
+		for k := range Countries() {
 			if ok := k.Verify(); !ok {
 				t.Error("Should have been ok")
 			}
 		}
-		if ok := Alpha2("Af").Verify(); !ok {
+		if ok := CountryAlpha2("Af").Verify(); !ok {
 			t.Error("Should have been ok")
 		}
 
-		if ok := Alpha2("AA").Verify(); ok {
+		if ok := CountryAlpha2("AA").Verify(); ok {
 			t.Error("Shouldn't have been ok")
 		}
 	})
 
-	// Alpha3
-	t.Run("Alpha3", func(t *testing.T) {
+	// CountryAlpha3
+	t.Run("CountryAlpha3", func(t *testing.T) {
 		t.Parallel()
-		for _, v := range List() {
-			if ok := v.Alpha3.Verify(); !ok {
+		for _, v := range Countries() {
+			if ok := v.CountryAlpha3.Verify(); !ok {
 				t.Error("Should have been ok")
 			}
 		}
-		if ok := Alpha3("AfG").Verify(); !ok {
+		if ok := CountryAlpha3("AfG").Verify(); !ok {
 			t.Error("Should have been ok")
 		}
 
-		if ok := Alpha2("AAa").Verify(); ok {
+		if ok := CountryAlpha3("AAa").Verify(); ok {
 			t.Error("Shouldn't have been ok")
 		}
 	})
@@ -46,10 +46,10 @@ func TestVerify(t *testing.T) {
 func TestInformation(t *testing.T) {
 	t.Parallel()
 
-	// Alpha2
-	t.Run("Alpha2", func(t *testing.T) {
+	// CountryAlpha2
+	t.Run("CountryAlpha2", func(t *testing.T) {
 		t.Parallel()
-		for k, v := range List() {
+		for k, v := range Countries() {
 			if info := k.Information(); info == nil {
 				t.Error("The impossible happenned.")
 			} else if v != *info {
@@ -57,23 +57,23 @@ func TestInformation(t *testing.T) {
 			}
 		}
 
-		if info := Alpha2("bad").Information(); info != nil {
+		if info := CountryAlpha2("bad").Information(); info != nil {
 			t.Error("Info should have been nil")
 		}
 	})
 
-	// Alpha3
-	t.Run("Alpha3", func(t *testing.T) {
+	// CountryAlpha3
+	t.Run("CountryAlpha3", func(t *testing.T) {
 		t.Parallel()
-		for k, v := range List() {
-			if k2, info := v.Alpha3.Information(); info == nil {
+		for k, v := range Countries() {
+			if k2, info := v.CountryAlpha3.Information(); info == nil {
 				t.Error("The impossible happenned.")
 			} else if k != k2 || v != *info {
 				t.Error("The informations should have been equal")
 			}
 		}
 
-		if _, info := Alpha3("ad").Information(); info != nil {
+		if _, info := CountryAlpha3("ad").Information(); info != nil {
 			t.Error("Info should have been nil")
 		}
 	})
@@ -82,28 +82,28 @@ func TestInformation(t *testing.T) {
 func TestString(t *testing.T) {
 	t.Parallel()
 
-	// Alpha2
-	t.Run("Alpha2", func(t *testing.T) {
+	// CountryAlpha2
+	t.Run("CountryAlpha2", func(t *testing.T) {
 		t.Parallel()
-		a := Alpha2("Af")
+		a := CountryAlpha2("Af")
 		if a.String() != "AF" {
 			t.Error("Wrong answer: " + a.String())
 		}
-		a = Alpha2("afa")
-		if a.String() != string(WrongAlpha2) {
+		a = CountryAlpha2("afa")
+		if a.String() != string(WrongCountryAlpha2) {
 			t.Error("Wrong answer: " + a.String())
 		}
 	})
 
-	// Alpha3
-	t.Run("Alpha3", func(t *testing.T) {
+	// CountryAlpha3
+	t.Run("CountryAlpha3", func(t *testing.T) {
 		t.Parallel()
-		a := Alpha3("Afg")
+		a := CountryAlpha3("Afg")
 		if a.String() != "AFG" {
 			t.Error("Wrong answer: " + a.String())
 		}
-		a = Alpha3("afag")
-		if a.String() != string(WrongAlpha3) {
+		a = CountryAlpha3("afag")
+		if a.String() != string(WrongCountryAlpha3) {
 			t.Error("Wrong answer: " + a.String())
 		}
 	})
@@ -112,10 +112,12 @@ func TestString(t *testing.T) {
 func TestFrom(t *testing.T) {
 	t.Parallel()
 
-	tester := func(f func() (Alpha2, CountryInformation), ogK Alpha2, ogV CountryInformation) {
+	tester := func(f func() (CountryAlpha2, CountryInformation),
+		ogK CountryAlpha2, ogV CountryInformation) {
+
 		a2, ci := f()
 		if a2 != ogK {
-			t.Error("Alpha2 codes don't match")
+			t.Error("CountryAlpha2 codes don't match")
 		} else if ci != ogV {
 			t.Error("CountryInformation doesn't match")
 		}
@@ -136,7 +138,7 @@ func TestFrom(t *testing.T) {
 			t.Run("FullName", func(t *testing.T) {
 				t.Parallel()
 				tester(
-					func() (Alpha2, CountryInformation) {
+					func() (CountryAlpha2, CountryInformation) {
 						return FromFullName(v.FullName)
 					},
 					k,
@@ -149,18 +151,18 @@ func TestFrom(t *testing.T) {
 				}
 			})
 
-			// FromAlpha3
-			t.Run("Alpha3", func(t *testing.T) {
+			// FromCountryAlpha3
+			t.Run("CountryAlpha3", func(t *testing.T) {
 				t.Parallel()
 				tester(
-					func() (Alpha2, CountryInformation) {
-						return FromAlpha3(v.Alpha3)
+					func() (CountryAlpha2, CountryInformation) {
+						return FromCountryAlpha3(v.CountryAlpha3)
 					},
 					k,
 					v,
 				)
 
-				a2, _ := FromAlpha3("PRO")
+				a2, _ := FromCountryAlpha3("PRO")
 				if a2 != "" {
 					t.Error("ProcessOut is not a country (yet)")
 				}
@@ -170,7 +172,7 @@ func TestFrom(t *testing.T) {
 			t.Run("NumericCode", func(t *testing.T) {
 				t.Parallel()
 				tester(
-					func() (Alpha2, CountryInformation) {
+					func() (CountryAlpha2, CountryInformation) {
 						return FromNumericCode(v.Numeric)
 					},
 					k,
