@@ -74,6 +74,28 @@ func (a CountryAlpha3) Information() (CountryAlpha2, *CountryInformation) {
 	return k, &new
 }
 
+// Continent returns the continent on which the country is
+func (a CountryAlpha2) Continent() string {
+	return countryToContinents[a]
+}
+
+// Continent returns the continent on which the country is
+func (a CountryAlpha3) Continent() string {
+	k, _ := FromCountryAlpha3(a)
+	return countryToContinents[k]
+}
+
+// Currency returns the currency of the country
+func (a CountryAlpha2) Currency() string {
+	return countryToCurrency[a]
+}
+
+// Currency returns the currency of the country
+func (a CountryAlpha3) Currency() string {
+	k, _ := FromCountryAlpha3(a)
+	return countryToCurrency[k]
+}
+
 // String for Stringer interface
 func (a CountryAlpha2) String() string {
 	if ok := a.Verify(); !ok {
