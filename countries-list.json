@@ -1240,6 +1240,11 @@
         "alpha3": "ZMB",
         "num": 894
     },
+    "ZR": {
+        "full_name": "ZAIRE",
+        "alpha3": "ZAR",
+        "num": 180
+    },
     "ZW": {
         "full_name": "Zimbabwe",
         "alpha3": "ZWE",
