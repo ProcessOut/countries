@@ -257,5 +257,6 @@ var countryList = map[CountryAlpha2]CountryInformation{
 	"EH": CountryInformation{"Western Sahara", "ESH", 732},
 	"YE": CountryInformation{"Yemen", "YEM", 887},
 	"ZM": CountryInformation{"Zambia", "ZMB", 894},
+	"ZR": CountryInformation{"Zaire", "ZAR", 180},
 	"ZW": CountryInformation{"Zimbabwe", "ZWE", 716},
 }
